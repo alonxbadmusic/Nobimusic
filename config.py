@@ -12,24 +12,24 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","expertcoderr")
+OWNER_USERNAME = getenv("OWNER_USERNAME","BADLIAR & LASTWORNING")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "CuteshizuBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "ΛᄂӨП X BΛD")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Shizu")
+BOT_NAME = getenv("BOT_NAME" , "ΛᄂӨП")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "Cuteshizu")
-EVALOP = list(map(int, getenv("EVALOP", "6656608288  6656608288").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "X BΛD")
+EVALOP = list(map(int, getenv("EVALOP", "5679673719  5679673719").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001801976314))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001898491419))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6656608288))
+OWNER_ID = int(getenv("OWNER_ID", 5679673719))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -46,8 +46,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kaalCarder")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SweetToxicSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hackersBDD")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/badliar332")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -121,10 +121,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/58e1e93e1e90a4e99dc2a.jpg"
+    "START_IMG_URL", "https://graph.org/file/2ffb4ea8a2e82c0deb655.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
+    "PING_IMG_URL", "https://graph.org/file/2ffb4ea8a2e82c0deb655.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/78ac6fc48e240895e5ec8.jpg"
 STATS_IMG_URL = "https://graph.org/file/6abe3a913bf645b5b89ce.jpg"
